@@ -36,7 +36,8 @@ apxs -i -c -n mod_rpaf-2.0.so mod_rpaf-2.0.c</pre>
 
 &nbsp;
 
-<pre class="lang:apache decode:true">#载入模块
+{% highlight nginx linenos %}
+#载入模块
 LoadModule rpaf_module modules/mod_rpaf-2.0.so
 
 # mod_rpaf configuration
@@ -49,6 +50,6 @@ RPAFproxy_ips xxx.xxx.xxx.xxx
 #将真实X-Forwarded-For变量填入真实ip
 RPAFheader X-Forwarded-For</pre>
 
-&nbsp;
+{% endhighlight %}
 
 但诡异的是，wordpress并不认这个<span class="lang:default decode:true  crayon-inline ">X-Forwarded-For</span> 变量，需要再安装一个叫reverse-proxy-comment-ip-fix的插件，方可获取到真实的客户端ip。
