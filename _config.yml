@@ -21,7 +21,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://blog.ctyi.me" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: 1997cui
 github_username:  1997cui
-
+lang: zh_CN
 # Build settings
 markdown: kramdown
 theme: minima
@@ -29,6 +29,8 @@ plugins:
   - jekyll-feed
   - jekyll-sitemap
 google_analytics: UA-22140633-6
+disqus:
+  shortname: ctyi-1
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
