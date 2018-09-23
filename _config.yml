@@ -29,6 +29,7 @@ plugins:
   - jekyll-feed
   - jekyll-sitemap
 google_analytics: UA-22140633-6
+future: true
 disqus:
   shortname: ctyi-1
 
