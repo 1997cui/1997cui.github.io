@@ -25,9 +25,11 @@ lang: zh_CN
 # Build settings
 markdown: kramdown
 theme: minima
+encoding: utf-8
 plugins:
   - jekyll-feed
   - jekyll-sitemap
+  - jemoji
 google_analytics: UA-22140633-6
 future: true
 header_pages:

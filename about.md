@@ -29,10 +29,6 @@ My research interests are Systems, Computer Networking and Computer Architecture
 
 [CV](https://blog.ctyi.me/wp-content/uploads/2014/06/resume.pdf)
 
-[Transcript(USTC)](https://blog.ctyi.me/wp-content/uploads/2014/06/English.pdf)
-
-[transcript(UCLA)](https://blog.ctyi.me/wp-content/uploads/2014/06/transcript_color.pdf)
-
 [SOSP SRC poster](https://blog.ctyi.me/wp-content/uploads/2014/06/workSOSP.Poster.IPC_.pdf)
 
 [Go-for-FPGA final report](https://blog.ctyi.me/wp-content/uploads/2014/06/fpga-compilation-framework.pdf)
