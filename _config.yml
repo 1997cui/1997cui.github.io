@@ -24,7 +24,7 @@ github_username:  1997cui
 lang: zh_CN
 # Build settings
 markdown: kramdown
-theme: minima
+remote_theme: jekyll/minima
 encoding: utf-8
 plugins:
   - jekyll-feed
