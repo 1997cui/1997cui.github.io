@@ -59,6 +59,8 @@ My research interests are Systems, Computer Networking and Computer Architecture
  * [Offloading distributed applications onto smartNICs using iPipe](https://par.nsf.gov/servlets/purl/10126681) [SIGCOMM'19] Ming Liu, **Tianyi Cui**, Henry Schuh, Arvind Krishnamurthy, Simon Peter, Karan Gupta
   
 ## Internship & Visiting Research
+* 2022/06-2022/9 Facebook
+
 * 2020/07-2020/12 Microsoft Research, Advisor: [Wei Bai](https://baiwei0427.github.io/)
 
   During the Internship, I worked with Microsoft Azure to improve RDMA performance by tuning switch RDMA parameters on [SONiC](https://azure.microsoft.com/en-us/blog/sonic-the-networking-switch-software-that-powers-the-microsoft-global-cloud/).
