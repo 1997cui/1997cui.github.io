@@ -29,8 +29,9 @@ encoding: utf-8
 plugins:
   - jekyll-feed
   - jekyll-sitemap
+  - jekyll-remote-theme
   - jemoji
-google_analytics: UA-22140633-6
+google_analytics: G-0HE28FJ423
 future: true
 header_pages:
   - calendar.md
