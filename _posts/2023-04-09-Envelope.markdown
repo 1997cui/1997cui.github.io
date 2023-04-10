@@ -1,0 +1,48 @@
+---
+layout: post
+title:  "Envelope: Tracking stamped plain mail for free"
+date: 2023-04-09
+categories: 生活
+tags:
+ - USPS
+ - IMb
+ - Barcode
+ - IV-MTR
+ - Certified Mail
+ - Tracking
+ - Stamp
+ - First class Mail
+ - 平信
+ - 追踪
+ - 邮票
+---
+**Disclaimer: This tool has no warrenty and I assume no liability for your mail loss, for example, a lost tax return to IRS**
+
+This is the tax season again. I hate go to the post office to just get a certified label to make sure my tax return is delivered. I also hate to pay $4.15 for a certified mail. I know there is a way to track a plain mail with a barcode [See my other post here]({% post_url 2021-06-03-USPS_IV_MTR %}), but it is not easy to use. Thus, I made a tool.
+
+# How to use it
+
+1. Visit [https://slu.t.cuitian1.com/envelope](https://slu.t.cuitian1.com/envelope)
+2. Type in the recipient address and your return address, click generate
+3. Remember your serial number and the recipient zipcode
+4. Print the address and the barcode (**The most important**) on to the envelope
+5. Tracking using the bottom part of the website
+6. Star the Github project if you like it
+7. In case of the website down, you can go to [Github repo](https://github.com/1997cui/envelope) to deploy your own.
+
+![A sample tracking](/wp-content/uploads/2023/sample_tracking.png)
+Above is a sample tracking record that can be obtained from the website.
+
+## Why it works
+
+As a lot of people know, USPS has a handy tool called [informed delivery](https://www.usps.com/manage/informed-delivery.htm). How it works is basically USPS scans the barcode on the mail, which can uniquely identify an address.
+{:refdef: style="text-align: center;"}
+{% include image.htm url="/wp-content/uploads/2021/USPSIVMTR/samplemail.png" description="letter with a barcode" %}
+{: refdef}
+It turns out that you can generate your own barcode and put it on the mail, and USPS can help you track it! This functionality is called [Informed Visibility](https://iv.usps.com/), which uses the same barcode.
+
+I create this tool with Informed Visibility, basically generate a barcode for you to track.
+
+## Limitations
+
+USPS doesn't scan the barcode during every hop of the mail. Thus, the tracking information is not as detail as a certified mail. Specifically, for a first class letter, the carrier didn't scan individually of them during delivery. As a result, the last hop (i.e. delivery) is not reliable. Sometimes, my tool can capture a logical delivery event, which means the postman entered the zipcode of the recipient, but not always. However, the tracking information can give me enough confidence that the mail is delivered.
