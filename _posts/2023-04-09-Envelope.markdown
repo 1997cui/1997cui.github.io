@@ -22,7 +22,7 @@ This is the tax season again. I hate go to the post office to just get a certifi
 
 # How to use it
 
-1. Visit [https://slu.t.cuitian1.com/envelope](https://slu.t.cuitian1.com/envelope)
+1. Visit [https://envelopetracker.com](https://envelopetracker.com)
 2. Type in the recipient address and your return address, click generate
 3. Remember your serial number and the recipient zipcode
 4. Print the address and the barcode (**The most important**) on to the envelope

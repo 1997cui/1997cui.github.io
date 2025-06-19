@@ -41,7 +41,7 @@ tags:
 我们需要做的事情就是自己把条形码（这个条码称之为[IMb (Intelligent Mail Barcode)](https://postalpro.usps.com/mailing/intelligent-mail-barcode)）打印到信封上，然后用某种方式追踪到就可以了。
 
 ## TL;DR
-偷懒的同学建议注册并交钱使用[Letter Track Pro](https://www.lettertrackpro.com/) (并没有人给我广告费，自己也没有用过)
+偷懒的同学建议使用我做的工具[Envelope Tracker](https://envelopetracker.com/)
 
 ## 完整版教程
 
