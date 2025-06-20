@@ -24,13 +24,14 @@ github_username:  1997cui
 lang: zh_CN
 # Build settings
 markdown: kramdown
-remote_theme: jekyll/minima
+remote_theme: jekyll/minima@593a05a2a6426b2f2438e334abf8c8edc80d4624
 encoding: utf-8
 plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-remote-theme
   - jemoji
+  - jekyll-include-cache
 google_analytics: G-0HE28FJ423
 future: true
 header_pages:
