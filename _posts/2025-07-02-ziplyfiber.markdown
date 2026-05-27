@@ -13,7 +13,9 @@ tags:
     - Xfinity
 ---
 
-<span style="font-size:large;color:red">If you want to give Ziply Fiber a try, use [my refer link](https://refer.ziplyfiber.com/tianyic-24) to get $100 credit!</span>
+# Latest update as of May 2026
+
+<span style="font-size:large;color:red">I am no longer using Ziply Fiber for now due to the price increase and running out of the promotion period. I am currently using **Xfinity**.It currently offers $50 for 1Gbps with 5 years price guarantee at my address for now. Use [My Link](https://referafriend.xfinity.com/1997cui!1018da34fe!a) if you are interested.</span>
 
 # Key Takeaways
 
@@ -61,8 +63,6 @@ The good thing about Xfinity is that their service is widely available and decen
 
 Previously, I've used the trick that at the end of the promotion period, I canceled the service and let my roommate sign up a new account with the same address and activate it immediately. No service disruption at all. As long as the new account is established, the old account will be canceled automatically. Nowadays, this trick is not needed since they have the 5-year price guarantee now. So, at most, you only need to do it once every 5 years.
 
-# [Ziply Fiber](https://refer.ziplyfiber.com/tianyic-24)
-
 This is the ISP I am currently using. The signup and installation process is a pain in the butt; it took me half a year and endless follow-ups to get the service installed. When I moved into where I live now, the previous owner did not use Ziply Fiber and there was no fiber buried.
 
 After calling them, they needed a couple weeks to a month to bury the cable from the handhole in front of my neighbor's house to the sidewall of my garage. After that, the technician from Ziply Fiber came to my place to do the indoor installation, only to find out that there was no spare fiber from their hub/splitter to the handhole in front of my neighbor's house, so they just left. A couple months later, I scheduled another appointment, and the result was the same: technician came, no fiber, and left. This repeated a couple times, until I escalated this issue multiple times. They finally applied for a permit from the city (took several weeks for them to prepare, and took another month for the city to issue the permit). Then it was the forever wait for their contractor to pull the cables and close the permit. Then, wait for another couple weeks for them to update the system, activate the port, and finally another technician came and installed the ONT. The technician who worked for Ziply Fiber was very nice and the ONT installation was a breeze (see below).
@@ -91,4 +91,3 @@ Idle Latency:     2.66 ms   (jitter: 0.21ms, low: 2.42ms, high: 2.80ms)
  Packet Loss:     0.0%
   Result URL: https://www.speedtest.net/result/c/3ce33b02-6706-42ce-9b67-7715fd5b5e1a
 ```
-<span style="font-size:large">If you want to give Ziply Fiber a try, use [my refer link](https://refer.ziplyfiber.com/tianyic-24) to get $100 credit!</span>
